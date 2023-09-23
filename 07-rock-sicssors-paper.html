@@ -11,7 +11,7 @@
     <title>rock paper sicssors</title>
   </head>
   <body>  
-    <p> Rock Paper Scissors </p>
+   <!-- <p> Rock Paper Scissors </p>
 
     <button onclick="
     console.log(Math.random())
@@ -35,9 +35,9 @@
     }
     alert(`You picked rock, computer picked ${computerStep}. ${goal}.`);
     "> Rock</button>
-    <!-- starting of paper button -->
+     starting of paper button -->
     
-    <button onclick="
+   <!--<button onclick="
     console.log(Math.random())
     const one= Math.random();
     console.log('paper')
@@ -82,7 +82,16 @@
     }
     alert(`You picked scissors, computer picked ${computerStrat}. ${achievement}.`);
     "> Scissors</button>
+    -->
+    <h1> Header</h1>
+    <input type="text" id="inp">
+    <button onclick="pressed()">click</button>
+    <p id="output"></p>
     <script>
+      function pressed(){
+        var text=document.getElementById().value;
+        output.innerHTML = text.toUppercase()
+      }
     </script>
   </body>
 </html>
